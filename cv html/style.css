@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&family=Open+Sans:wght@300;700&display=swap');
+/* open sans grandes y chiquitas*/
+/* merrieweeather italic= cursiva y negrita*/
+*{
+    margin: 10px;
+    padding: 15px;
+}
+
+body{
+    background-color: white;
+}
+
+#main{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main #left{
+    float: left;
+    width: 700px;
+}
+
+#main #right{
+    float: right;
+    position: relative;
+    top: 80px;
+    width: 300px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0;
+}
+
+.img{
+    padding-top: 35px;
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.name{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 60px;
+    align-self: flex-end;
+}
+
+.contact {
+    flex-direction: column;
+    padding-top: 40px;
+    align-self: flex-end;
+    justify-self: left;
+    padding-left: 50px;
+}
+
+.one{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin:0;
+    padding:0;
+}
+
+.two{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin:0;
+    padding:0;
+}
+
+.titulo-top{
+    padding: 0;
+    margin: 0;
+    color: grey;
+    font-family: 'Merriweather', serif;
+    padding-bottom: 10px;
+}
+
+h4{
+margin: 0;
+padding: 0;
+float: left;
+position: relative;
+left: 40px;
+}
+
+.box{
+    padding: 5px;
+    padding-top: 10px;
+}
+
+h2{
+    color: indianred;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.titulo{
+    margin: 0;
+    padding: 0;
+    padding-left: 15px;
+}
+.objetivo{
+    margin: 0; 
+    font-family: 'Merriweather', serif;
+    color: grey;  
+}
+
+.titulo-lugar{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-right: 0;
+    padding-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.titulo-act{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.titulo-lugar, .titulo-act{
+    display: inline;
+}
+
+.tiempo{
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    padding: 0;
+    margin: 5px;
+    margin-left: 0;
+}
+
+.des{
+    font-family: 'Merriweather', serif;
+    color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+.titulo-skills{
+    padding-bottom: 10px;
+}
+
+.skills li{
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    color: grey;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.derecha h2{
+    text-align: center;
+}
+
+.idioma{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 0;
+}
+
+.nivel{
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-style: italic;
+    text-transform: capitalize;
+    padding: 0
+}
+
+.idioma, .nivel{
+    display: inline;
+}
